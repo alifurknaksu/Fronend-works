@@ -1,0 +1,26 @@
+<form action="somesite.html"> giriş yapınca gidilecek yer
+    <label>First Name : </label>
+    <input name="firstName" type="text">
+    <br> 
+    kapatmaya gerek olmaz bilgi girişi için 
+    <label>Password : </label>
+    <input name="password" type="password" required>
+    <br>
+    <label>Cinsiyet : </label>
+    <select name="gender"> Seçim oluşturma
+        <option>Erkek</option>
+        <option>Kadın</option>
+    </select><br>
+    <label>En sevdiğin marka : </label>
+    <select name="car" size="5" multiple> çoklu seçim
+        <option>Volvo</option>
+        <option>Renault</option>
+        <option>Mercedes</option>
+        <option>Wosvagen</option>
+    </select><br>
+    <label>Hakkınızda : </label>
+    <textarea name="biography" rows="4" cols="30"></textarea><br> Text boyutu
+
+    <input type="submit" value="Kaydet"/> gönder butonu
+    <button onClick="alert('Kaydete basıldı')">Kaydet</button>
+</form>
